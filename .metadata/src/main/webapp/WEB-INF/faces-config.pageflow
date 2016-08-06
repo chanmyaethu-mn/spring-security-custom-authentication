@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14705051300610" configfile="/springsecurity-customauthentication/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf14705054956344" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14705054956345 pf14705054956346" path="/*"/>
+  <nodes xsi:type="pageflow:PFPage" name="welcome.xhtml" x="24" y="132" id="pf14705054956347" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf14705054956345" path="/welcome.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="login.xhtml" x="144" y="48" id="pf14705054956358" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14705054956346" path="/login.xhtml"/>
+  <links id="pf14705054956345" target="pf14705054956347" source="pf14705054956344" outcome="welcome" redirect="true"/>
+  <links id="pf14705054956346" target="pf14705054956358" source="pf14705054956344" outcome="login" redirect="true"/>
+</pageflow:Pageflow>
